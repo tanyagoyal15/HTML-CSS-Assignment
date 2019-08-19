@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML CSS Assignment</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+
+	<!-- HEADER -->
+	<div class="header">
+		<h3>FitnessTime</h3>
+		<div class="navbar">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Features</a></li>
+				<li><a href="#">Our Team</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Partners</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<!-- CAROUSEL -->
+<div class="slideshow-wrapper">
+
+	  <div class="mySlides">
+	    <img class="animated fadeIn" src="./img/01_Slider_Image.jpg">
+	    <div class="number">
+	    	<img src="./img/phone-call.png"><p>1-800-555-1234</p>
+	    </div>
+	    <h5 class="animated slideInLeft">Landing Page Template</h5>
+	    <h3 class="animated slideInLeft">Perfect Fitness Solution</h3>
+	    <h4 class="animated slideInLeft">Best Choice For Your Site</h4>
+	  </div>
+
+	  <div class="mySlides">
+	    <img class="animated fadeIn" src="./img/02_Slider_Image.jpg">
+	    <div class="number">
+	    	<img src="./img/phone-call.png"><p>1-800-555-1234</p>
+	    </div>
+	    <h5 class="animated slideInLeft">Landing Page Template</h5>
+	    <h3 class="animated slideInLeft">Perfect Fitness Solution</h3>
+	    <h4 class="animated slideInLeft">Best Choice For Your Site</h4>
+	  </div>
+
+	  <div class="mySlides">
+	    <img class="animated fadeIn" src="./img/03_Slider_Image.jpg">
+	    <div class="number">
+	    	<img src="./img/phone-call.png"><p>1-800-555-1234</p>
+	    </div>
+	    <h5 class="animated slideInLeft">Landing Page Template</h5>
+	    <h3 class="animated slideInLeft">Perfect Fitness Solution</h3>
+	    <h4 class="animated slideInLeft">Best Choice For Your Site</h4>
+	  </div>
+
+	  <a class="prev" onclick="controlSlides(-1)"><i class="fa fa-chevron-circle-left"></i></a>
+	  <a class="next" onclick="controlSlides(1)"><i class="fa fa-chevron-circle-right"></i></a>
+
+ </div>
+
+<!-- TRAINERS -->
+<div class="superb-trainers">
+	<h3>Superb Trainers</h3>
+</div>
+
+<!-- CARDS -->
+<div class="cards">
+	<ul>
+		<li>
+			<div class="flip-card">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="./img/04_Image_card.jpg" alt="Avatar" style="width:200px;height:200px;">
+			      <div class="content">
+			      	<h5>Otto W.SchReffler</h5>
+			      	<p>Trainer</p>
+			      </div>
+			    </div>
+			    <div class="flip-card-back">
+			      <h3>Otto W.SchReffler</h3>
+			      <p>Trainer</p>
+			      <p class="back-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			      tempor incididunt ut labore et dolore magna aliqua.</p>
+			    </div>
+			  </div>
+			</div>
+		</li>
+		<li>
+			<div class="flip-card">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="./img/03_Image_card.jpg" alt="Avatar" style="width:200px;height:200px;">
+			      <div class="content">
+			      	<h5>Brooke C.Carrington</h5>
+			      	<p>Trainer</p>
+			      </div>
+			    </div>
+			    <div class="flip-card-back">
+			      <h3>Brooke C.Carrington</h3>
+			      <p>Trainer</p>
+			      <p class="back-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			      tempor incididunt ut labore et dolore magna aliqua.</p>
+			    </div>
+			  </div>
+			</div>
+		</li>
+		<li>
+			<div class="flip-card">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			    	<div class="card-content">
+			    		<h3>Arthur f.Huffman</h3>
+			      		<p>Trainer</p>
+			      		<p class="about-trainer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			      		tempor incididunt ut labore et dolore magna aliqua.</p>
+			    	</div>
+			    </div>
+			    <div class="flip-card-back">
+			      <h3>Arthur f.Huffman</h3>
+			      <p>Trainer</p>
+			      <p class="back-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			      tempor incididunt ut labore et dolore magna aliqua.</p>
+			    </div>
+			  </div>
+			</div>
+		</li>
+		<li>
+			<div class="flip-card">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="./img/02_Image_card.jpg" alt="Avatar" style="width:200px;height:200px;">
+			      <div class="content">
+			      	<h5>Bernice B.Work</h5>
+			      	<p>Trainer</p>
+			      </div>
+			    </div>
+			    <div class="flip-card-back">
+			      <h3>Bernice B.Work</h3>
+			      <p>Trainer</p>
+			      <p class="back-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			      tempor incididunt ut labore et dolore magna aliqua.</p>
+			    </div>
+			  </div>
+			</div>
+		</li>
+	</ul>
+</div>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
